@@ -1,0 +1,43 @@
+body{
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn{
+  background-color: white;
+  border: solid black 1px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 4px;
+}
+
+.jumbotron{
+  margin: 5rem 20rem;
+  background:rgba(255,255,255,.5);
+}
+
+@media (min-width: 576px){
+
+.jumbotron{
+  /*padding: 4rem 2rem;*/
+  margin: 7rem 18rem !important;
+}
+}
+
+@media only screen and (min-width: 768px){
+
+.jumbotron{
+  /*padding: 4rem 2rem;*/
+  margin: 7rem 18rem;
+}
+}
+
+@media only screen and (min-width: 768px){
+
+.jumbotron{
+  /*padding: 4rem 2rem;*/
+  margin: 7rem 18rem;
+}
+}
